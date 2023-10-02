@@ -39,4 +39,4 @@ function calcChange (startMoney, costPerBottle) {
     return changeFromBottles;
 }
 
-getMilk(11);
+console.log("Hello Master, here is your" +getMilk(11) + " change.");
