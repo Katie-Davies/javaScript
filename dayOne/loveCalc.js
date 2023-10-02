@@ -6,4 +6,9 @@ var loveScore = Math.random()* 100;
 loveScore = Math.floor(loveScore) + 1;
 console.log(loveScore);
 
-alert("Your love is " + loveScore + "%");
+
+if (loveScore > 80) {
+ alert("Your love is " + loveScore + "%" + "Your love is on fire!")
+} else {
+    alert("Your love is " + loveScore + "%")
+}
