@@ -9,6 +9,15 @@ console.log(loveScore);
 
 if (loveScore > 80) {
  alert("Your love is " + loveScore + "%" + "Your love is on fire!")
-} else {
+} 
+if (loveScore > 30 && loveScore <= 70) {
+	alert("Your love is " + loveScore + "%" + " You may make it!")
+}
+if (loveScore <= 30) {
+        alert("Your love is " + loveScore + "%" + " You go together like oil and water!")
+    }
+
+
+else {
     alert("Your love is " + loveScore + "%")
 }
