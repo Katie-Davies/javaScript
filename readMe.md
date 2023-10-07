@@ -174,3 +174,8 @@ Inside the block, { ... }, there are multiple cases. The case keyword checks if 
 
 The break keyword tells the computer to exit the block and not execute any more code or check any other cases inside the code block. Note: Without break keywords, the first matching case will run, but so will every subsequent case regardless of whether or not it matches—including the default. This behavior is different from if/else conditional statements that execute only one block of code.
 At the end of each switch statement, there is a default statement. If none of the cases are true, then the code in the default statement will run.
+
+
+
+#Function
+A function is a reusable block of code that groups together a sequence of statements to perform a specific task.

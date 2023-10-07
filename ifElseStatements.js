@@ -55,3 +55,27 @@ switch (randomNumber) {
 }
 
 console.log(`The magic eight ball says ${eightBall}`);
+
+
+
+let earlyRunner = true;
+let runnersAge = 14;
+
+if (earlyRunner && runnersAge > 18) {
+  raceNumber += 1000;
+}
+
+if (earlyRunner && runnersAge > 18) {
+  console.log(`You are running at 9.30am. Your race number is ${raceNumber}.`);
+} else if (runnersAge >18 && !earlyRunner) {
+  console.log(`You will race at 11am and your race number is ${raceNumber}`);
+} else  if (earlyRunner && runnersAge < 18){ 
+  console.log(`Youth registrants run at 12.30pm (regardless of registration). Your race number is ${raceNumber}`);
+} else {
+  console.log("See registraton desk");
+}
+
+
+
+
+
